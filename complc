@@ -1,0 +1,10 @@
+#!bin/bash
+
+# if complc.bat is exists
+if [ ./complc.bat ]; then
+    echo " Running the 'complc.bat'.. "
+else
+    echo " The 'complc.bat' doesn't exits.. "
+fi
+
+read -p "Press any key to continue.."
