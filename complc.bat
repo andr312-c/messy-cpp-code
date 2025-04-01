@@ -1,7 +1,8 @@
 @echo off
-g++ src/messy_codec.cpp -o console.exe
 
 @rem To compile the source file
+g++ src/messy_codec.cpp -o console.exe
+
 @if exist "console.exe" (
     echo Running...
     console.exe
